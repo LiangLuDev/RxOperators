@@ -3,9 +3,7 @@ package com.luliang.rxpractice;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.luliang.rxpractice.operators.create.BasisCreate;
-import com.luliang.rxpractice.operators.create.DelayCreate;
-import com.luliang.rxpractice.operators.create.FastCreate;
+import com.luliang.rxpractice.operators.transform.Transform;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -31,5 +29,13 @@ public class MainActivity extends AppCompatActivity {
 //        delayCreate.interval();
 //        delayCreate.intervalRange();
 //        delayCreate.range();
+
+
+
+        //map变换
+        Transform transform=new Transform();
+//        transform.map();
+//        transform.flatMap();
+        transform.buffer();
     }
 }
