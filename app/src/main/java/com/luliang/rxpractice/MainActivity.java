@@ -49,7 +49,11 @@ public class MainActivity extends AppCompatActivity {
 //        merge.concatArrayDelayError();
 
         //组合
-        ObservablesCombine combine=new ObservablesCombine();
-        combine.zip();
+//        ObservablesCombine combine=new ObservablesCombine();
+//        combine.zip();
+//        combine.reduce();
+//        combine.collect();
+//        combine.startWithAndArray();
+//        combine.count();
     }
 }
