@@ -3,6 +3,8 @@ package com.luliang.rxpractice;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
+import com.luliang.rxpractice.operators.combine.ObservablesCombine;
+import com.luliang.rxpractice.operators.combine.ObservablesMerge;
 import com.luliang.rxpractice.operators.transform.Transform;
 
 public class MainActivity extends AppCompatActivity {
@@ -33,9 +35,21 @@ public class MainActivity extends AppCompatActivity {
 
 
         //map变换
-        Transform transform=new Transform();
+//        Transform transform=new Transform();
 //        transform.map();
 //        transform.flatMap();
-        transform.buffer();
+//        transform.buffer();
+
+        //合并
+//        ObservablesMerge merge=new ObservablesMerge();
+//        merge.concat();
+//        merge.concatArray();
+//        merge.merge();
+//        merge.mergeArray();
+//        merge.concatArrayDelayError();
+
+        //组合
+        ObservablesCombine combine=new ObservablesCombine();
+        combine.zip();
     }
 }
