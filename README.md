@@ -16,9 +16,9 @@
 - [合并操作-【concat】【concatArray】【merge】【mergeArray】【concatDelayError】【mergeDelayError】](https://github.com/LiangLuDev/RxPractice/blob/eddb9c9a55f4024422f62d4586f277b65989a1a9/app/src/main/java/com/luliang/rxpractice/operators/combine/ObservablesMerge.java)
 - [组合操作-【zip】【combineLatest】【combineLatestDelayError】【reduce】【collect】【startWith】【startWithArray】【count】](https://github.com/LiangLuDev/RxPractice/blob/eddb9c9a55f4024422f62d4586f277b65989a1a9/app/src/main/java/com/luliang/rxpractice/operators/combine/ObservablesCombine.java)
 #### 功能性操作符
-- [常用功能操作符-【subscribe】【subscribeOn】【observeOn】]()
-- [错误处理功能操作符-【onErrorReturn】【onErrorResumeNext】【onExceptionResumeNext】【retry】【retryUntil】【retryWhen】]()
-- [其他功能操作符-【delay】【repeat】【repeatWhen】【do】]()
+- [常用功能操作符-【subscribe】【subscribeOn】【observeOn】](https://github.com/LiangLuDev/RxPractice/blob/23c8133d58f06fd33da4157528bda561c39045b8/app/src/main/java/com/luliang/rxpractice/operators/utility/AlwaysUtility.java)
+- [其他功能操作符-【delay】【repeat】【repeatWhen】【do】](https://github.com/LiangLuDev/RxPractice/blob/23c8133d58f06fd33da4157528bda561c39045b8/app/src/main/java/com/luliang/rxpractice/operators/utility/OtherUtility.java)
+- [错误处理功能操作符-【onErrorReturn】【onErrorResumeNext】【onExceptionResumeNext】【retry】【retryUntil】【retryWhen】](https://github.com/LiangLuDev/RxPractice/blob/23c8133d58f06fd33da4157528bda561c39045b8/app/src/main/java/com/luliang/rxpractice/operators/utility/ErrorUtility.java)
 #### TODO
 #### 过滤操作符
 #### 条件/布尔操作符
