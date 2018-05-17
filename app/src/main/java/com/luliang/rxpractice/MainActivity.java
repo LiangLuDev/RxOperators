@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.luliang.rxpractice.operators.utility.AlwaysUtility;
+import com.luliang.rxpractice.operators.utility.ErrorUtility;
 import com.luliang.rxpractice.operators.utility.OtherUtility;
 
 public class MainActivity extends AppCompatActivity {
@@ -63,5 +64,10 @@ public class MainActivity extends AppCompatActivity {
         //其他功能性操作符
 //        OtherUtility otherUtility=new OtherUtility();
 //        otherUtility.repeat();
+//        otherUtility.repeatWhen();
+
+        //错误处理
+        ErrorUtility errorUtility=new ErrorUtility();
+        errorUtility.onErrorReturn();
     }
 }

@@ -15,7 +15,10 @@
 #### 组合/合并操作符
 - [合并操作-【concat】【concatArray】【merge】【mergeArray】【concatDelayError】【mergeDelayError】](https://github.com/LiangLuDev/RxPractice/blob/eddb9c9a55f4024422f62d4586f277b65989a1a9/app/src/main/java/com/luliang/rxpractice/operators/combine/ObservablesMerge.java)
 - [组合操作-【zip】【combineLatest】【combineLatestDelayError】【reduce】【collect】【startWith】【startWithArray】【count】](https://github.com/LiangLuDev/RxPractice/blob/eddb9c9a55f4024422f62d4586f277b65989a1a9/app/src/main/java/com/luliang/rxpractice/operators/combine/ObservablesCombine.java)
+#### 功能性操作符
+- [常用功能操作符-【subscribe】【subscribeOn】【observeOn】]()
+- [错误处理功能操作符-【onErrorReturn】【onErrorResumeNext】【onExceptionResumeNext】【retry】【retryUntil】【retryWhen】]()
+- [其他功能操作符-【delay】【repeat】【repeatWhen】【do】]()
 #### TODO
-#### 辅助操作符
 #### 过滤操作符
 #### 条件/布尔操作符
