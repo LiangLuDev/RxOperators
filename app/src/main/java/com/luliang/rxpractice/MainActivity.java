@@ -3,9 +3,8 @@ package com.luliang.rxpractice;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.luliang.rxpractice.operators.combine.ObservablesCombine;
-import com.luliang.rxpractice.operators.combine.ObservablesMerge;
-import com.luliang.rxpractice.operators.transform.Transform;
+import com.luliang.rxpractice.operators.utility.AlwaysUtility;
+import com.luliang.rxpractice.operators.utility.OtherUtility;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
 //        delayCreate.range();
 
 
-
         //map变换
 //        Transform transform=new Transform();
 //        transform.map();
@@ -55,5 +53,15 @@ public class MainActivity extends AppCompatActivity {
 //        combine.collect();
 //        combine.startWithAndArray();
 //        combine.count();
+
+
+        //常用功能性
+//        AlwaysUtility always = new AlwaysUtility();
+//        always.subscribe();
+//        always.switchSubscribes();
+
+        //其他功能性操作符
+//        OtherUtility otherUtility=new OtherUtility();
+//        otherUtility.repeat();
     }
 }
