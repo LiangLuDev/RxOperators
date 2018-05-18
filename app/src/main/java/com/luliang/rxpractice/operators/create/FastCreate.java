@@ -15,7 +15,7 @@ import io.reactivex.disposables.Disposable;
  * Created by LuLiang on 2018/5/14.
  * 创建操作符-快速创建&发送事件
  * <p>
- * just、fromArray、fromiterable、never、empty、error
+ * just、fromArray、fromIterable、never、empty、error
  *
  * @author LuLiang
  * @github https://github.com/LiangLuDev

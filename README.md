@@ -7,9 +7,9 @@
 > - 学习时间：学习RxJava的成本是需要一点的，但是只要专心几天就能啃的差不多操作起来（非常值）。
 > - 学习操作符之前先把原理基本使用弄懂，不然还是一头雾水，原本Rx在我面前是打了马赛克的，看了这个教程，豁然开朗。[RxJava入门教程学习](https://www.jianshu.com/u/c50b715ccaeb)
 #### 创建操作符
-- [基本创建-【BasicCreate】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/BasisCreate.java)
-- [快速创建-【FastCreate】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/FastCreate.java)
-- [延迟创建-【DelayCreate】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/DelayCreate.java)
+- [基本创建-【create】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/BasisCreate.java)
+- [快速创建-【just】【fromArray】【fromIterable】【never】【empty】【error】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/FastCreate.java)
+- [延迟创建-【defer】【timer】【interval】【intervalRange】【range】【rangeLong】](https://github.com/LiangLuDev/RxPractice/blob/b78b5ab5145778c877a9e1820673a0dc34708732/app/src/main/java/com/luliang/rxpractice/operators/create/DelayCreate.java)
 #### 变换操作符
 - [变换操作-【Map】【FlatMap】【ConcatMap】【Buffer】](https://github.com/LiangLuDev/RxPractice/blob/7aeebc20d3ae2d8dd05eb6e87ea145a7f06950f1/app/src/main/java/com/luliang/rxpractice/operators/transform/Transform.java)
 #### 组合/合并操作符
