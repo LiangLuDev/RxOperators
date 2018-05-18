@@ -3,12 +3,7 @@ package com.luliang.rxpractice;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
-import com.luliang.rxpractice.operators.filter.ConditionFilter;
-import com.luliang.rxpractice.operators.filter.CountFilter;
-import com.luliang.rxpractice.operators.filter.TimeFilter;
-import com.luliang.rxpractice.operators.utility.AlwaysUtility;
-import com.luliang.rxpractice.operators.utility.ErrorUtility;
-import com.luliang.rxpractice.operators.utility.OtherUtility;
+import com.luliang.rxpractice.operators.conditional.ConditionalAndBoolean;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -85,8 +80,13 @@ public class MainActivity extends AppCompatActivity {
 //        countFilter.take();
 
         //时间过滤
-        TimeFilter timeFilter=new TimeFilter();
+//        TimeFilter timeFilter=new TimeFilter();
 //        timeFilter.throttleFirst();
-        timeFilter.throttleWithTimeout();
+//        timeFilter.throttleWithTimeout();
+
+        //条件/布尔操作符
+        ConditionalAndBoolean conditionalAndBoolean = new ConditionalAndBoolean();
+//        conditionalAndBoolean.all();
+        conditionalAndBoolean.takeWhile();
     }
 }
