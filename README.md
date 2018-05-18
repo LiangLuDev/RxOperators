@@ -7,7 +7,7 @@
 > - 学习时间：学习RxJava的成本是需要一点的，但是只要专心几天就能啃的差不多操作起来（非常值）。
 > - 学习操作符之前先把原理基本使用弄懂，不然还是一头雾水，原本Rx在我面前是打了马赛克的，看了这个教程，豁然开朗。[RxJava入门教程学习](https://www.jianshu.com/u/c50b715ccaeb)
 
-#### 操作符预览图
+### 操作符预览图
 ![Alt text](./operators.png)
 
 
@@ -30,4 +30,4 @@
 - [时间过滤-【throttleFirst】【throttleLast】【throttleWithTimeout】【sample】](https://github.com/LiangLuDev/RxPractice/blob/7b29008159aa19b7164f281cde62a881625da6e4/app/src/main/java/com/luliang/rxpractice/operators/filter/TimeFilter.java)
 - [条件过滤-【filter】【ofType】【skip】【skipLast】【distinct】【distinctUntilChanged】](https://github.com/LiangLuDev/RxPractice/blob/7b29008159aa19b7164f281cde62a881625da6e4/app/src/main/java/com/luliang/rxpractice/operators/filter/ConditionFilter.java)
 #### 条件/布尔操作符
-- [条件/布尔-【all】【takeWhile】【skipWhile】【takeUntil】【skipUntil】【SequenceEqual】【contains】【isEmpty】【amb】【defaultIfEmpty】]()
+- [条件/布尔-【all】【takeWhile】【skipWhile】【takeUntil】【skipUntil】【SequenceEqual】【contains】【isEmpty】【amb】【defaultIfEmpty】](https://github.com/LiangLuDev/RxPractice/blob/30b6a6623544c4ea423c2fe2a532775cbe0d90a9/app/src/main/java/com/luliang/rxpractice/operators/conditional/ConditionalAndBoolean.java)
