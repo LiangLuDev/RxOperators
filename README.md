@@ -1,4 +1,4 @@
-# RxPractice
+# RxOperators
 ### RxJava使用整理
 
 ### 前言
